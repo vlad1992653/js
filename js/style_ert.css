@@ -1,0 +1,113 @@
+	
+ body 
+{
+background-image: url('background_ert.png'), url('background_ert.png');
+background-repeat: repeat-y, repeat;
+background-attachment:fixed;
+background-position:center;
+}
+.dws-menu > *
+{
+margin: 0;
+padding: 0;
+}
+.dws-menu > ul
+{
+background: #feccb1; /* Old browsers */
+background: -moz-linear-gradient(top,  #feccb1 0%, #f17432 50%, #ea5507 51%, #fb955e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#fb955e',GradientType=0 ); /* IE6-9 */
+
+border: 5px solid #3C4043;
+border-radius:15px;
+display: flex;
+list-style: none;
+box-shadow: 5px 5px 7px #000000;
+}
+.dws-menu > ul li a
+{
+padding: 15px 30px 15px 30px;
+font-size: 22px;
+color: #3C4043;
+text-decoration: none;
+text-transform: uppercase;
+}
+.dws-menu > ul li 
+{
+position: relative;
+border-right: 2px solid #3C4043;
+}
+.dws-menu > ul li a i.fas, .fab
+{
+position: absolute;
+top: 1px;
+left: 2px;
+}
+.dws-menu > ul li:hover 
+{
+background: #fcd7bc; /* Old browsers */
+background: -moz-linear-gradient(top,  #fcd7bc 0%, #fc994e 50%, #f86b00 52%, #f86b00 52%, #fbc093 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #fcd7bc 0%,#fc994e 50%,#f86b00 52%,#f86b00 52%,#fbc093 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #fcd7bc 0%,#fc994e 50%,#f86b00 52%,#f86b00 52%,#fbc093 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcd7bc', endColorstr='#fbc093',GradientType=0 ); /* IE6-9 */
+
+}
+#li1:hover
+{ 
+
+background: #fcd7bc; /* Old browsers */
+background: -moz-linear-gradient(top,  #fcd7bc 0%, #fc994e 50%, #f86b00 52%, #f86b00 52%, #fbc093 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #fcd7bc 0%,#fc994e 50%,#f86b00 52%,#f86b00 52%,#fbc093 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #fcd7bc 0%,#fc994e 50%,#f86b00 52%,#f86b00 52%,#fbc093 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcd7bc', endColorstr='#fbc093',GradientType=0 ); /* IE6-9 */
+
+border-radius: 10px 0 0 10px;
+}
+#li2:hover
+{ 
+
+background: #fcd7bc; /* Old browsers */
+background: -moz-linear-gradient(top,  #fcd7bc 0%, #fc994e 50%, #f86b00 52%, #f86b00 52%, #fbc093 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #fcd7bc 0%,#fc994e 50%,#f86b00 52%,#f86b00 52%,#fbc093 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #fcd7bc 0%,#fc994e 50%,#f86b00 52%,#f86b00 52%,#fbc093 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcd7bc', endColorstr='#fbc093',GradientType=0 ); /* IE6-9 */
+
+border-radius: 0 10px 10px 0;
+border-right: 2px solid #3C4043;
+}
+.dws-menu > ul li a:hover
+{
+color: #F3503D;
+transition: all 0.3s ease;
+}
+.dws-menu  li ul 
+{
+position: absolute;
+display: none;
+}
+.dws-menu li > ul li
+{
+border: 1px solid #3C4043;
+list-style: none;
+left: -40px;
+border-radius: 10px;
+background: #feccb1; /* Old browsers */
+background: -moz-linear-gradient(top,  #feccb1 0%, #f17432 50%, #ea5507 51%, #fb955e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#fb955e',GradientType=0 ); /* IE6-9 */
+
+min-width: 150px;
+text-decoration: none;
+}
+.dws-menu li:hover > ul
+{
+display: block;
+}
+.dws-menu li > ul li ul
+{
+position: absolute;
+right: -210px;
+top: 0;
+
